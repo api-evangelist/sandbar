@@ -1,8 +1,27 @@
 aid: sandbar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sandbar.png
 name: Sandbar
-description: Sandbar is a company surfaced as a portfolio company of kindred-ventures, true-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Sandbar is a consumer hardware and AI company behind Stream, a private voice
+  ring and conversational notes app. Worn on the finger, Stream pairs a discreet
+  private microphone, a glass touchpad, and silent haptics with an on-device
+  "Inner Voice" assistant so people can capture notes, reminders, and todos,
+  dictate speech-to-text across any iOS or Mac app, and think aloud without
+  reaching for a phone. Backed by Kindred Ventures and True Ventures, Sandbar is
+  a preorder-stage consumer product; it publishes a marketing site, an About/Us
+  page, and a Careers page, but no public developer portal, API, or SDK surface
+  was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/sandbar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consumer Hardware
+- Wearables
+- Voice
+- Artificial Intelligence
+- Productivity
+- Notes
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://sandbar.com/
+  url: https://www.sandbar.com/
+- type: PrivacyPolicy
+  url: https://www.sandbar.com/privacy
+- type: DomainSecurity
+  url: security/sandbar-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
